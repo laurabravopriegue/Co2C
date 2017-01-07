@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_metodo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.laurabravopriegue.co2calculator.Metodo">
+
+    <TextView
+        android:text="        METODO"
+        android:fontFamily="sans-serif"
+        android:textSize="45sp"
+        android:textColor="#000000"
+        android:layout_width="100dp"
+        android:id="@+id/textView9"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:text="Para calcular el CO2 emitido en tu viaje hacemos lo siguiente:"
+        android:layout_width="300dp"
+        android:textSize="19sp"
+        android:textColor="#000000"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:text="-Primero, hemos buscado en Internet cuantos Kg de CO2 emite cada medio de transporte p.p. en 100 Km."
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textSize="19sp"
+        android:textColor="#000000"
+        android:layout_marginTop="70dp"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:text="-Luego, hemos dividido cada dato entre 100 para saber cuantos Kg de CO2 emite cada medio de transporte p.p. en 1 Km."
+        android:layout_height="100dp"
+        android:textSize="19sp"
+        android:textColor="#000000"
+        android:layout_marginTop="54dp"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="300dp"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="72dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="19dp"
+        android:id="@+id/textView13"/>
+</RelativeLayout>
